@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+    nginx:
+        image: nginx:stable-alpine
+        container_name: sellr_nginx
+        restart: always
+        ports:
+            -   80:80
+        volumes:
+            - ./src:/var/www/html
+            - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+        depends_on:
+            - php
+        networks:
+            - laravel
+
+    php:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: sellr_php
+        volumes:
+            -   ./src:/var/www/html
+        ports:
+            -   9000:80
+        networks:
+            - laravel
+
+networks:
+    laravel:
+
