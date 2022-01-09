@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Superfuds/Proyects/jelti/.idea/jelti.iml" filepath="$PROJECT_DIR$/../Superfuds/Proyects/jelti/.idea/jelti.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sellr.iml" filepath="$PROJECT_DIR$/.idea/sellr.iml" />
     </modules>
   </component>
