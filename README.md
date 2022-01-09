@@ -38,7 +38,7 @@ Asegurece de que  nginx y  php esten corriendo
 
       docker exec sellr_php chmod -R 777 storage/
   
-##Evidencia del sistema
+#Evidencia del sistema
 
 ![](https://raw.githubusercontent.com/Stivenson02/sellr_test/main/src/resources/img/Captura%20de%20pantalla%20de%202022-01-08%2022-10-26.png)
 ![](https://github.com/Stivenson02/sellr_test/blob/main/src/resources/img/Captura%20de%20pantalla%20de%202022-01-08%2022-11-45.png?raw=true)
