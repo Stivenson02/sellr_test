@@ -4,7 +4,7 @@
     <div class="content">
 
         <div class="title m-b-md">
-            <a href="{{url('/')}}">Suppliers</a>
+            <a href="{{url('/')}}">Proveedores</a>
         </div>
 
         <div>

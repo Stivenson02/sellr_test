@@ -8,7 +8,7 @@
 
                 <div class="links">
                     <a href="{{route('supplier')}}">Administrar proveedores</a>
-                    <a href="https://laracasts.com">Administrar productos</a>
+                    <a href="{{route('products')}}">Administrar productos</a>
                 </div>
             </div>
 

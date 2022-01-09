@@ -18,4 +18,4 @@ Route::get('/', function () {
 Route::get("/supplier", "CodeController@showSuppliers")->name('supplier');
 Route::post("/supplier_save", "CodeController@storeSuppliers")->name('supplier_save');
 Route::get("/products", "CodeController@showProducts")->name('products');
-Route::post("/supplier_save", "CodeController@storeSuppliers")->name('supplier_save');
+Route::post("/products_save", "CodeController@storeProducts")->name('products_save');
